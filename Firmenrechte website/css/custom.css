@@ -1,0 +1,69 @@
+/*Font Definition für Selektor Tags*/
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Lato", sans-serif;
+}
+
+/*Font Definition für Nav, h1, Button*/
+.w3-bar,
+h1,
+button {
+  font-family: "Montserrat", sans-serif;
+}
+
+/*Grösse der Beiden Icons auf Startseite*/
+.fa-anchor,
+.fa-coffee,
+.fa-address-book,
+.fa-bar-chart-o,
+.fa-key,
+.fa-question {
+  font-size: 200px;
+}
+
+.images {
+  height: 200px;
+  width: auto;
+}
+
+/* .header-index {
+  background-image: url("../img/bannder-index.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+ */
+.header-index {
+  background: linear-gradient(rgba(63, 81, 181, 0.7), rgba(63, 81, 181, 0.7)),
+    url("../img/bannder-index.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.header-fallbeispiel {
+  background: linear-gradient(rgba(63, 81, 181, 0.7), rgba(63, 81, 181, 0.7)),
+    url("../img/startup.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.header-rechtswidrigkeit {
+  background: linear-gradient(rgba(63, 81, 181, 0.7), rgba(63, 81, 181, 0.7)),
+    url("../img/rechtswidrigkeiten.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.header-abgrenzungskriterien {
+  background: linear-gradient(rgba(63, 81, 181, 0.7), rgba(63, 81, 181, 0.7)),
+    url("../img/gericht.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
